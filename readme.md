@@ -14,7 +14,7 @@ kiwistrongis : [github.com/kiwistrongis](http://github.com/kiwistrongis)
 ```bash
 sudo aptitude install ghc libusb-1.0-0-dev cabal-install git pkg-config
 cabal update
-cabal install usb cmdargs
+cabal install usb-1.2 cmdargs
 ```
 #### Fedora: ####
 ```bash
@@ -26,7 +26,7 @@ cabal install usb-1.2 cmdargs
 Install GHC, libusb 1.0.0 headers, cabal. Then:
 ```bash
 cabal update
-cabal install usb cmdargs
+cabal install usb-1.2 cmdargs
 ```
 
 ## Installation ##
